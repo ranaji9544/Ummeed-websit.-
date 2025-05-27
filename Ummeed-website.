@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ummeed – The Hope of the Mountains</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f4f9f9;
+      color: #333;
+    }
+    header {
+      background: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #224d35;
+    }
+    nav a {
+      padding: 15px 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #1c3b28;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .treks {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .trek-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .trek-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      background: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ummeed</h1>
+    <p>The Hope of the Mountains</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#treks">Treks</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Discover Nature Like Never Before</h2>
+    <p>Explore some of the most stunning trails of Uttarakhand with Ummeed Treks.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Ummeed</h2>
+    <p>
+      Ummeed is a trekking group based in the Himalayas of Uttarakhand. We aim to connect people with nature through safe, guided adventures in the mountains. With deep knowledge of the terrain, our team ensures a memorable experience with every step.
+    </p>
+  </section>
+
+  <section id="treks">
+    <h2>Popular Treks</h2>
+    <div class="treks">
+      <div class="trek-card">
+        <img src="kedarnath.jpg" alt="Kedarnath Trek">
+        <h3>Kedarnath</h3>
+        <p>3 days | Moderate | ₹6,999</p>
+      </div>
+      <div class="trek-card">
+        <h3>Dodital</h3>
+        <p>5 days | Moderate | ₹8,500</p>
+      </div>
+      <div class="trek-card">
+        <h3>Dayara Bugyal</h3>
+        <p>4 days | Easy | ₹7,500</p>
+      </div>
+      <div class="trek-card">
+        <h3>Gulabi Kantha</h3>
+        <p>4 days | Easy | ₹7,200</p>
+      </div>
+      <div class="trek-card">
+        <h3>Tapovan</h3>
+        <p>6 days | Challenging | ₹11,000</p>
+      </div>
+      <div class="trek-card">
+        <h3>Kedar Tal</h3>
+        <p>6 days | Difficult | ₹12,500</p>
+      </div>
+      <div class="trek-card">
+        <h3>Gaumukh</h3>
+        <p>5 days | Moderate | ₹9,999</p>
+      </div>
+      <div class="trek-card">
+        <h3>Darwa Top</h3>
+        <p>5 days | Moderate | ₹8,000</p>
+      </div>
+      <div class="trek-card">
+        <h3>Gangotri</h3>
+        <p>3 days | Easy | ₹5,500</p>
+      </div>
+      <div class="trek-card">
+        <h3>Yamunotri</h3>
+        <p>3 days | Easy | ₹5,500</p>
+      </div>
+      <div class="trek-card">
+        <h3>Badrinath</h3>
+        <p>3 days | Moderate | ₹6,200</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>Photos from our recent treks will be added here. Stay tuned!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@ummeedtreks.com</p>
+    <p>Phone: +91-9876543210</p>
+    <p>Instagram: @ummeed.treks</p>
+  </section>
+
+  <footer>
